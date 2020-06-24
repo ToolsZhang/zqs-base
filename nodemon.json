@@ -1,0 +1,15 @@
+{
+  "restartable": "rs",
+  "ignore": [],
+  "execMap": {
+    "js": "node"
+  },
+  "script": "./.tmp/",
+  "watch": [
+    "src/"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js json"
+}
