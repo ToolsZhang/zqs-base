@@ -42,7 +42,7 @@ export const production: IConfig = {
       },
     },
 
-    host: `${config.development.domain}:${config.development.port}`,
+    host: `${config.production.domain}:${config.production.port}`,
     schemes: ['http'],
     basePath: '/',
     produces: ['application/json', 'application/xml'],
