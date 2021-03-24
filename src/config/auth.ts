@@ -16,6 +16,7 @@ export const development: IConfig = {
   secret: 'This is a secret',
   enableBasicAuth: true,
   defaultRoles: ['user', 'admin', 'super'],
+  expiresIn: '1d'
 };
 
 export const production: IConfig = {
@@ -34,4 +35,5 @@ export const production: IConfig = {
   secret: 'This is a secret',
   enableBasicAuth: true,
   defaultRoles: ['user', 'admin', 'super'],
+  expiresIn: '1d'
 };
