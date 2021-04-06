@@ -1,5 +1,6 @@
 import { IConfig } from 'zqs-core';
 import * as authEnv from './auth';
+import * as loggerEnv from './logger';
 import * as corsEnv from './cors';
 import * as docsEnv from './docs';
 import * as environment from './environment';
@@ -16,6 +17,7 @@ export const config: IConfig = {
   ip: env.ip,
   domain: env.domain,
   mongodb: mongodbEnv[process.env.NODE_ENV],
+  logger: loggerEnv[process.env.NODE_ENV],
   docs: docsEnv[process.env.NODE_ENV],
   auth: authEnv[process.env.NODE_ENV],
   statics: staticsEnv[process.env.NODE_ENV],
