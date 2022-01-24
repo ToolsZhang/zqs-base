@@ -1,6 +1,6 @@
 {
   "name": "zqs-base",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "an example zqs framework",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "@types/mongodb": "^3.5.24",
     "pm2": "^4.4.0",
     "request-promise": "^4.2.5",
-    "zqs-core": "0.0.9"
+    "zqs-core": "^0.0.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
